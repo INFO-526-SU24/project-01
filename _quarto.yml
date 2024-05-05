@@ -6,7 +6,7 @@ website:
   navbar:
     right:
       - icon: github
-        href: https://github.com/INFO526-DataViz/project-01
+        href: https://github.com/INFO-526-SU24/project-01 # Needs to be changed to your project repo
     left:
       - text: Project
         href: index.qmd
@@ -19,8 +19,11 @@ website:
 
 format:
   html:
-    theme: default
+    theme:
+      light: flatly
+      dark: darkly
     toc: true
+
 
 execute:
   freeze: auto
